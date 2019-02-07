@@ -1,9 +1,80 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>A119-51</title>
-  </head>
-  <body>
-  1
+ <head>
+  <meta charset="utf-8">
+  <title>onehours</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+
+    function test()
+    {
+      var otv = $("input:radio[name=answer]:checked").val();
+      var otv1 = $("input:radio[name=answer1]:checked").val();
+      var otv2 = $("input:radio[name=answer2]:checked").val();
+      var otv3 = $("input:radio[name=answer3]:checked").val();
+      var otv4 = $("input:radio[name=answer4]:checked").val();
+      var otv5 = $("input:radio[name=answer5]:checked").val();
+      var otv6 = $("input:radio[name=answer6]:checked").val();
+      var otv7 = $("input:radio[name=answer7]:checked").val();
+      var otv8 = $("input:radio[name=answer8]:checked").val();
+    if ((otv=='a2')&&(otv1=='b1')&&(otv2=='c1')&&(otv3=='d1')&&(otv4=='e2')&&(otv5=='f2')&&(otv6=='g2')&&(otv7=='h1'))
+    {
+      alert("вы прошли ");
+    }
+    else {alert("вы не прошли");
+  }
+  }
+  </script>
+  <style>
+    body { background: url(https://html-templates.info/images/pages/140520040122.jpg);
+    color:white;}
+  </style>
+   </head>
+   <body>
+
+  Настя Ш.<br>
+Твои подарки бесподобны! Так что же я получила от тебя в подарок в марте 2015 г.?
+  <p>
+    <input type="radio" name="answer" value="a1">Кошачья кхм-кхм…насадка на выхлопную трубу в виде кошки&nbsp<br>
+    <input type="radio" name="answer" value="a2">Приборная панель, заначка из твоего гаража, от какой-то Тойоты, скорее всего Тамагочи &nbsp</p><br>
+    Рома<br>
+  Ты друг, на которого всегда можно положится!<br> И в очередной раз ты мне очень помог.<br> Однажды, ты с покраски забирал мой Лексус, когда реставрировали бампер. <br>Адрес не помнишь?
+    <p>
+      <input type="radio" name="answer1" value="b1">Лермонтова 33&nbsp<br>
+      <input type="radio" name="answer1" value="b2">Героев курсантов 26&nbsp</p>
+      <br>
+      Ксюша<br>
+  Ну что всепомнящее Око, ты помнишь, как я ласково называю свою машину?
+      <p>
+        <input type="radio" name="answer2" value="c1">Мелкий&nbsp<br>
+        <input type="radio" name="answer2" value="c2">Малой &nbsp</p><br>
+        Даша<br>
+  У тебя самое крутое чувство юмора! Что сделали с рыжей Леной в Питере в 2011 г.?
+        <p>
+          <input type="radio" name="answer3" value="d1">Завернули в ковер и отнесли на другой конец отеля&nbsp<br>
+          <input type="radio" name="answer3" value="d2">Оставили жить в Питере&nbsp</p><br>
+          Маша<br>
+    Ты самый эмоциональный человек!<br> В 2015г. на твое очередное день рождение я подарила тебе букет цветов,<br> ты долго приходил в себя после этого, помнишь какие это были цветы?
+          <p>
+            <input type="radio" name="answer4" value="e1">Ромашки&nbsp<br>
+            <input type="radio" name="answer4" value="e2">Красные розы&nbsp</p><br>
+            Настя К.<br>
+    У тебя все друзья разные! Ты же должен знать кто я по национальности?
+            <p>
+              <input type="radio" name="answer5" value="f1">Японка&nbsp<br>
+              <input type="radio" name="answer5" value="f2">Кореянка&nbsp</p><br>
+              Дима<br>
+      Я как и ты люблю помогать людям! <br>Я вот спасаю людям жизни и тушу огонь, а какая у меня профессия?
+              <p>
+                <input type="radio" name="answer6" value="g1">МЧСник&nbsp<br>
+                <input type="radio" name="answer6" value="g2">Пожарный&nbsp</p><br>
+                Слава<br>
+          Автоквест твое второе имя! <br> Я тоже любитель там поучавствовать, что я при этом люблю ловить?
+                <p>
+                  <input type="radio" name="answer7" value="h1">Дохлую кошку&nbsp<br>
+                  <input type="radio" name="answer7" value="h2">Других соперников&nbsp</p><br>
+    <input type="button" name="" value="Проверить " onclick="test();">
   </body>
-</html>
+ </html>
